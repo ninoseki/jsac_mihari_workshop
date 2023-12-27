@@ -1,0 +1,13 @@
+{
+  "name": "jsac-mihari-workshop",
+  "version": "1.0.0",
+  "description": "JSAC2024 Mihari Workshop",
+  "author": "ninoseki",
+  "license": "ISC",
+  "dependencies": {
+    "hash-honeypot": "^1.0.3"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
