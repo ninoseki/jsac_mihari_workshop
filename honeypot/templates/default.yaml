@@ -1,6 +1,6 @@
 id: default
 info:
-  title: "Default"
+  title: "JSAC2024 honeypot"
 requests:
   - expect:
       method: ALL
@@ -21,3 +21,4 @@ requests:
         x-conference: "JSAC2024"
       body:
         static: "index.html"
+    isTrap: true
