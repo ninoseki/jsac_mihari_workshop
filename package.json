@@ -5,7 +5,7 @@
   "author": "ninoseki",
   "license": "ISC",
   "dependencies": {
-    "hash-honeypot": "^1.0.3"
+    "hash-honeypot": "github:ninoseki/hash#fix-winston-issue"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^3.4.0"
