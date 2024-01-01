@@ -20,5 +20,5 @@ requests:
         content-type: "text/html"
         x-conference: "JSAC2024"
       body:
-        static: "index.html"
+        view: "index.html"
     isTrap: true
