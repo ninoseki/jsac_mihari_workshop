@@ -1,0 +1,33 @@
+site_name: JSAC2024 Mihari Workshop
+
+theme:
+  name: material
+
+nav:
+  - Introduction: introduction.md
+  - Setup: setup.md
+  - Architecture: architecture.md
+  - Rule: rule.md
+  - Vs. ProjectDiscovery: vs_project_discovery.md
+  - Exercises:
+      - Subdomain Enumeration: exercises/subdomain_enumeration.md
+      - Honeypot: exercises/honeypot.md
+      - Nuclei: exercises/nuclei.md
+
+plugins:
+  search:
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.extra
+  - pymdownx.highlight
+  - pymdownx.magiclink
+  - mdx_truly_sane_lists:
+      nested_indent: 2
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
