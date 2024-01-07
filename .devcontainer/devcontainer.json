@@ -1,0 +1,21 @@
+{
+  "name": "jsac-mihari-workshop",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.vscode-yaml"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "mihari db migrate",
+  "forwardPorts": [
+    9292
+  ]
+}

@@ -1,1 +1,1 @@
-# jsac2024
+# JSAC2024 Mihari Workshop

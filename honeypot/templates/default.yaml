@@ -1,0 +1,24 @@
+id: default
+info:
+  title: "JSAC2024 honeypot"
+requests:
+  - expect:
+      method: ALL
+      path: "/favicon.ico"
+    reply:
+      status: 200
+      headers:
+        content-type: "image/x-icon"
+      body:
+        static: "favicon.ico"
+  - expect:
+      method: GET
+      path: "/"
+    reply:
+      status: 200
+      headers:
+        content-type: "text/html"
+        x-conference: "JSAC2024"
+      body:
+        view: "index.html"
+    isTrap: true

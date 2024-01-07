@@ -1,0 +1,10 @@
+{
+  "name": "jsac-mihari-workshop",
+  "version": "1.0.0",
+  "description": "JSAC2024 Mihari Workshop",
+  "author": "ninoseki",
+  "license": "ISC",
+  "dependencies": {
+    "hash-honeypot": "github:ninoseki/hash#fix-winston-issue"
+  }
+}

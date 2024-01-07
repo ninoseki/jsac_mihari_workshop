@@ -1,0 +1,14 @@
+[Unit]
+Description=HASH Honeypot
+After=network.target
+
+[Service]
+Environment=DD_API_KEY=xxx
+Type=simple
+User=root
+WorkingDirectory=/opt/jsac_mihari_workshop
+ExecStart=/usr/bin/npx hash-honeypot run honeypot
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
