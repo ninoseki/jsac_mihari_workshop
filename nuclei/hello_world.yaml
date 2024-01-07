@@ -1,0 +1,19 @@
+id: hello-world
+
+info:
+  name: Hello World
+  author: ninoseki
+  severity: info
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+    matchers:
+      - type: status
+        status:
+          - 200
+      - type: word
+        words:
+          - Hello World
+        part: body

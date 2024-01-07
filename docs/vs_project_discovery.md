@@ -1,5 +1,11 @@
 # Vs. ProjectDiscovery or How I Learned to Stop Worrying and Love It
 
+<figure markdown>
+  ![img](https://i.imgur.com/RrlRtT7.jpg){: style="width:480px"}
+</figure>
+
+---
+
 ## A Key Difference
 
 - Mihari is a **passive** monitoring tool

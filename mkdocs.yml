@@ -4,6 +4,7 @@ theme:
   name: material
 
 nav:
+  - Index: index.md
   - Introduction: introduction.md
   - Setup: setup.md
   - Architecture: architecture.md
@@ -12,6 +13,7 @@ nav:
   - Exercises:
       - Subdomain Enumeration: exercises/subdomain_enumeration.md
       - Honeypot: exercises/honeypot.md
+      - MoqHao: exercises/moqhao.md
       - Nuclei: exercises/nuclei.md
 
 plugins:

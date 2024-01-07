@@ -1,5 +1,11 @@
 # Architecture
 
+<figure markdown>
+  ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Montreal_-_QC_-_Habitat67.jpg/750px-Montreal_-_QC_-_Habitat67.jpg){: style="width:480px"}
+</figure>
+
+---
+
 Mihari is a packaged as a Ruby gem and uses the following components:
 
 - [rails/thor](https://github.com/rails/thor) for building the CLI application

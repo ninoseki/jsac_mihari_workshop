@@ -1,5 +1,11 @@
 # Introduction
 
+<figure markdown>
+  ![img](https://sites.psu.edu/wled480eslworldcampus/wp-content/uploads/sites/29670/2016/01/Meme1.jpg){: style="width:480px"}
+</figure>
+
+---
+
 ## Problem Statements
 
 - Pros and cons in the Internet search engines, passive DNS/SSL services:
