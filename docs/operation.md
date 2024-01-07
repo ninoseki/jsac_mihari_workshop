@@ -6,6 +6,11 @@
 
 Using [GitOps](https://www.redhat.com/en/topics/devops/what-is-gitops) methodology is the best practice to use Mihari.
 
+!!! success
+
+    - Easy to review & revert a change in a rule
+    - Easy to build a workflow
+
 You can use any CI/CD solution (CircleCI, GitHub Actions, etc.) with Mihari.
 
 For example, the following is a GitHub Actions workflow to run Mihari with assuming you have a PostgreSQL.
