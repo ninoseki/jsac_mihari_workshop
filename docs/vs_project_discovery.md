@@ -44,8 +44,18 @@ It depends on what you are trying to do. ProjectDiscovery may be more the right 
 
 Anyway you can combine both. Collecting data in Mihari and validating it with Nuclei.
 
-For example:
+It's beneficial to save API quota because Nuclei uses API every time when Uncover options are set.
 
 ```bash
-mihari artifact list "rule.id:{RULE_ID}" | jq -r ".results[].data"
+# Shodan API key is used more than twice
+nuclei -uq "ip:1.1.1.1" -ue shodan ...
+nuclei -uq "ip:1.1.1.1" -ue shodan ...
+```
+
+You can convert Mihari data to Nuclei's targets by:
+
+```bash
+mihari artifact list | jq -r ".results[].data" | nuclei ...
+# or
+mihari artifact list-transform -t "json.array! results.map(&:data)" | jq -r ".[]" | nuclei ...
 ```

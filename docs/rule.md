@@ -36,7 +36,7 @@ An artifact can have following data types:
 - Mail (`mail`)
 - Hash (`hash`)
 
-Also an artifact can also have the following components:
+An artifact can also have the following components:
 
 ```mermaid
 erDiagram

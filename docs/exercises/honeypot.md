@@ -22,11 +22,12 @@ Try to create a Mihari rule to find them.
 
 ## Notes
 
-- The honeypot profile is defined in `TODO`
-- HASH's profile configuration is described at https://github.com/DataDog/HASH/blob/main/docs/config.md.
+- The honeypot profile is defined in https://github.com/ninoseki/jsac_mihari_workshop/tree/main/honeypot
+- HASH's profile configuration is described at https://github.com/DataDog/HASH/blob/main/docs/config.md
 - Alternatively you can run the honeypot in your laptop by:
 
 ```bash
+# Node.js v20+ is required
 git clone https://github.com/ninoseki/jsac_mihari_workshop
 npm install
 npx hash-honeypot run honeypot

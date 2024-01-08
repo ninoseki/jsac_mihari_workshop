@@ -3,7 +3,7 @@ FROM --platform=linux/amd64 ruby:3.2.2-slim-bookworm
 ARG USERNAME=vscode
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
-ARG MIHARI_VERSION=7.1.0
+ARG MIHARI_VERSION=7.1.1
 
 # create the user
 RUN groupadd --gid $USER_GID $USERNAME && \

@@ -131,3 +131,5 @@ dist
 
 # SQLite3 database
 *.db
+*.db-shm
+*.db-wal

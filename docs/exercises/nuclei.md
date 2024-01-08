@@ -16,7 +16,7 @@
 Try to create a Nuclei template that meets all of the following conditions:
 
 - HTTP status equals to 200
-- Headers have `x-conference: JSAC2024`
+- Headers have `x-conference:JSAC2024`
 - HTML body has an ISO 8601 format datetime
 
 <figure markdown>
