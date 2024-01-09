@@ -1,30 +1,28 @@
 # Vs. ProjectDiscovery or How I Learned to Stop Worrying and Love It
 
 <figure markdown>
-  ![img](https://i.imgur.com/RrlRtT7.jpg){: style="width:480px"}
+  ![img](https://i.imgflip.com/8bqf7d.jpg){: style="width:480px"}
 </figure>
-
----
 
 ## A Key Difference
 
 - Mihari is a **passive** monitoring tool
-- ProjectDiscovery's Nuclei is an **active** monitoring tool
+- ProjectDiscovery's Nuclei is an **active** monitoring/scanning tool
 
-Nuclei can validate/filter search results by scanning and Mihari cannot.
+Nuclei can validate/filter findings by scanning and Mihari cannot.
 
 ## Misc Differences
 
 - A number of services supports
   - Mihari supports **15+** services
-  - Nuclei (Uncover) supports **10** services
+  - Uncover supports **10** services
 - Data persistence
-  - Mihari **does support** data persistence (in SQL database)
-  - Nuclei **does support** data persistence (in Elasticsearch, Splunk and ProjectDiscovery's Cloud Platform) by using the reporting feature
-    - But it doesn't check the uniqueness of a finding like Mihari does (low confidence)
+  - Mihari **does support** data persistence in SQL database
+  - Nuclei **does support** data persistence in LevelDB
+    - Also can create a report in Elasticsearch, Splunk, ProjectDiscovery's Cloud Platform, etc.
 - Data enrichment
   - Mihari **does have** automated data enrichment feature
-  - Nuclei **doesn't have** automated data enrichment feature
+  - Nuclei/Uncover **doesn't have** automated data enrichment feature
 
 ## So, So What?
 

@@ -1,0 +1,24 @@
+name: Mihari searches
+
+on:
+  workflow_dispatch:
+  # Set schedule too (ref. https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule)
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        # For PostgreSQL
+        run: sudo apt-get -yqq install libpq-dev
+      - name: Set up Ruby 3.3
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Search
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          # Set API key(s) (ref. https://ninoseki.github.io/mihari/configuration/)
+        run: bundle exec mihari search -f /path/to/rule.yml

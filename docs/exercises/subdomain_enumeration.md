@@ -58,6 +58,8 @@ mihari alert list
 mihari web
 ```
 
+## How Listing/Searching Works
+
 !!! tip
 
     Search query supports `AND`, `OR`, `:`, `=`, `!=`, `<`, `<=`, `>`, `>=`, `NOT` and `()`.

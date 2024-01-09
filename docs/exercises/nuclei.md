@@ -85,11 +85,11 @@ The following command passes `ip:port` formatted data (targets) to Nuclei.
 
 ```bash
 # Confirm before scanning
-$ mihari artifact list "rule.id:{HONEYPOT_RULE_ID}" -t ip_port.json.jbuilder | jq -r ".[]"
+$ mihari artifact list-transform "rule.id:{HONEYPOT_RULE_ID}" -t ip_port.json.jbuilder | jq -r ".[]"
 # Scan if the output looks good
-$ mihari artifact list "rule.id:{HONEYPOT_RULE_ID}" -t ip_port.json.jbuilder | | jq -r ".[]" |  nuclei -t /path/to/template
+$ mihari artifact list-transform "rule.id:{HONEYPOT_RULE_ID}" -t ip_port.json.jbuilder | | jq -r ".[]" |  nuclei -t /path/to/template
 ```
 
 !!! note
 
-    Please use the command I give in Slack instead of `mihari artifact list ...` if you are unable to complete the previous exercise.
+    Please follow an instruction I give in Slack instead of `mihari artifact list-transform ...` if you are unable to complete the previous exercise.

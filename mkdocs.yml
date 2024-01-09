@@ -10,6 +10,7 @@ nav:
   - Architecture: architecture.md
   - Rule: rule.md
   - Vs. ProjectDiscovery: vs_project_discovery.md
+  - Operation: operation.md
   - Exercises:
       - Subdomain Enumeration: exercises/subdomain_enumeration.md
       - Honeypot: exercises/honeypot.md
