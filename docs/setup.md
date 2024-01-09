@@ -12,13 +12,17 @@ git clone https://github.com/ninoseki/jsac_mihari_workshop
 code jsac_mihari_workshop
 ```
 
+!!! info
+
+    Follow [this instruction](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) if you are unable to use `code` command
+
 Use the `Dev Containers: Reopen in Container` command from the Command Palette (F1, ⇧⌘P) to start the container. It will take several minutes to complete.
 
-If everything goes well, you can use Mihari, Nuclei and JQ in the container.
+If everything goes well, you can use Mihari, Nuclei and jq in the container.
 
 ```bash
 $ mihari -v
-7.1.0
+7.1.1
 
 $ nuclei --version
 [INF] Nuclei Engine Version: v3.1.3
