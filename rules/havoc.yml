@@ -1,0 +1,27 @@
+---
+id: fe68f712-a087-4c27-b1c9-3864e8f5b0fd
+title: Havoc C2
+description: A rule to find Havoc C2 based on header and banner characteristics
+queries:
+  - analyzer: censys
+    query: 'services.http.response.headers:(key:`x-havoc` and value.headers:`true`) OR services.banner_hashes="sha256:f5a45c4aa478a7ba9b44654a929bddc2f6453cd8d6f37cd893dda47220ad9870"'
+  - analyzer: shodan
+    query: "X-Havoc: true"
+tags:
+  - c2
+emitters:
+  - emitter: database
+enrichers:
+  - enricher: google_public_dns
+  - enricher: mmdb
+  - enricher: shodan
+  - enricher: whois
+data_types:
+  - hash
+  - ip
+  - domain
+  - url
+  - mail
+falsepositives: []
+references:
+  - https://github.com/drb-ra/C2IntelFeeds
