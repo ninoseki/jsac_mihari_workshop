@@ -1,8 +1,13 @@
 # JSAC2024 Mihari Workshop
 
+!!! success "Acknowledgements"
+
+    Thanks for [@snkhan](https://twitter.com/snkhan) and [@sepi140](https://twitter.com/sepi140) for their kindly helps.
+
 !!! warning
 
-    Do not access to possibly malicious IPs, domains and URLs via the conference network!
+    - Do not access to possibly malicious IPs, domains and URLs via the conference network!
+    - This document is written on based on Mihari v7.1.x and specs subject to change in the future
 
 ## Time Table
 
