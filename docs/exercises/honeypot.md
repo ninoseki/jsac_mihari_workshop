@@ -35,6 +35,6 @@ npx hash-honeypot run honeypot
 
 !!! tip
 
-    - There is a very unique header key-value pair
-    - Favicon is very unique too
+    - There is a very unique header key-value pair.
+    - Favicon is very unique too.
     - HTML title may be unique?

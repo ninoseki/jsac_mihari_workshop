@@ -9,19 +9,19 @@
 ## Problem Statements
 
 - Pros and cons in the Internet search engines, passive DNS/SSL services:
-  - e.g. I can find CVE-xxx in X but not Y
-- Data management (How do you manage search results?)
-- Searching is boring and human error is inevitable
+  - e.g. I can find CVE-xxx in X but not Y.
+- Data management. (How do you manage search results?)
+- Searching is boring and human error is inevitable.
 
 ## Mihari Is to Rescue
 
-- One Sigma-like rule to rule multiple services like the One Ring
+- One Sigma-like rule to rule multiple services like the One Ring.
 
 <figure markdown>
   ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/One_Ring_Blender_Render.png/125px-One_Ring_Blender_Render.png)
 </figure>
 
-- SQL database based data management
+- SQL database based data management.
 
 - Automate all the things!
 
@@ -46,15 +46,15 @@
 ## References
 
 - INES by Félix Aimé (ex-Kaspersky GReAT)
-  - Developed to help run continuous queries on services like Censys/Shodan
+  - Developed to help run continuous queries on services like Censys/Shodan.
 - [3c7/infrastructure-tracking-schema](https://github.com/3c7/infrastructure-tracking-schema)
-  - The goal is to have a common rule schema that allows querying a variety of services and chaining those queries together
+  - The goal is to have a common rule schema that allows querying a variety of services and chaining those queries together.
 - [InQuest/ThreatIngestor](https://github.com/InQuest/ThreatIngestor)
-  - Extract and aggregate threat intelligence
+  - Extract and aggregate threat intelligence.
 
 ## Alternatives
 
 - [projectdiscovery/uncover](https://github.com/projectdiscovery/uncover)
-  - Quickly discover exposed hosts on the internet using multiple search engines
+  - Quickly discover exposed hosts on the internet using multiple search engines.
 - [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
-  - Fast and customizable vulnerability scanner based on simple YAML based DSL
+  - Fast and customizable vulnerability scanner based on simple YAML based DSL.

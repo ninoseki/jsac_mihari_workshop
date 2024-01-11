@@ -10,8 +10,8 @@ Using [GitOps](https://www.redhat.com/en/topics/devops/what-is-gitops) methodolo
 
 !!! success
 
-    - Easy to review & revert a change in a rule
-    - Easy to build a workflow
+    - Easy to review & revert a change in a rule.
+    - Easy to build a workflow.
 
 You can use any CI/CD solution (CircleCI, GitHub Actions, etc.) with Mihari.
 

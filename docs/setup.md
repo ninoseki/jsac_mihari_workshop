@@ -14,7 +14,7 @@ code jsac_mihari_workshop
 
 !!! info
 
-    Follow [this instruction](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) if you are unable to use `code` command
+    Follow [this instruction](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) if you are unable to use `code` command.
 
 Use the `Dev Containers: Reopen in Container` command from the Command Palette (F1, ⇧⌘P) to start the container. It will take several minutes to complete.
 

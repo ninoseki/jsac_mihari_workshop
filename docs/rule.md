@@ -8,9 +8,9 @@
 
 A rule is composed by three main components. Analyzers (queries), enrichers and emitters.
 
-- Analyzers (Queries): a list of queries (analyzers) that builds a list of artifacts
-- Enrichers: a list of enrichers that enriches a list of artifacts
-- Emitters: a list of emitters that emits a list of artifacts as an alert
+- Analyzers (Queries): a list of queries (analyzers) that builds a list of artifacts.
+- Enrichers: a list of enrichers that enriches a list of artifacts.
+- Emitters: a list of emitters that emits a list of artifacts as an alert.
 
 ```mermaid
 graph LR
@@ -19,8 +19,8 @@ graph LR
   Emitters --> |Alert| Database[(Database)]
 ```
 
-- A rule has zero or more alerts
-- A alert has one or more artifacts
+- A rule has zero or more alerts.
+- A alert has one or more artifacts.
 
 ```mermaid
 erDiagram

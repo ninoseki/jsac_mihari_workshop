@@ -13,16 +13,16 @@ Nuclei can validate/filter findings by scanning and Mihari cannot.
 
 ## Misc Differences
 
-- A number of services supports
-  - Mihari supports **15+** services
-  - Uncover supports **10** services
-- Data persistence
-  - Mihari **does support** data persistence in SQL database
-  - Nuclei **does support** data persistence in LevelDB
+- A number of services supports:
+  - Mihari supports **15+** services.
+  - Uncover supports **10** services.
+- Data persistence:
+  - Mihari **does support** data persistence in SQL database.
+  - Nuclei **does support** data persistence in LevelDB.
     - Also can create a report in Elasticsearch, Splunk, ProjectDiscovery's Cloud Platform, etc.
-- Data enrichment
-  - Mihari **does have** automated data enrichment feature
-  - Nuclei/Uncover **doesn't have** automated data enrichment feature
+- Data enrichment:
+  - Mihari **does have** automated data enrichment feature.
+  - Nuclei/Uncover **doesn't have** automated data enrichment feature.
 
 ## So, So What?
 

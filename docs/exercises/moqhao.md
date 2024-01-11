@@ -8,8 +8,8 @@
 
 !!! abstract "Learning Points"
 
-    - How to configure Mihari
-    - How to write a rule (reprise)
+    - How to configure Mihari.
+    - How to write a rule. (reprise)
 
 ## Problem Statement
 
@@ -19,13 +19,13 @@ Run a rule I provide and try to improve it.
 
     - Again, do not access to IPs hit!
 
-    - Use passive data for pivoting
+    - Use passive data for pivoting.
 
 ## Notes
 
 !!! tip
 
-    - See [Configuration](https://ninoseki.github.io/mihari/configuration/) to know how to set credentials
+    - See [Configuration](https://ninoseki.github.io/mihari/configuration/) to know how to set credentials.
     - The provided rule relies on Shodan and Censys but you can translate queries into other services such as BinaryEdge, Fofa, Onyphe, etc.
 
 ## References

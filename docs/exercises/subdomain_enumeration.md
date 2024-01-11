@@ -8,9 +8,9 @@
 
 !!! abstract "Learning Points"
 
-    - How to write a rule
-    - How to search
-    - How to check findings via CLI & build-in web app
+    - How to write a rule.
+    - How to search.
+    - How to check findings via CLI & build-in web app.
 
 Initialize a new rule by:
 
@@ -72,3 +72,7 @@ Searchable fields are:
 | `artifact` | `id`, `data`, `data_type`, `source`, `query`, `tag`, `rule.id`, `rule.title`, `rule.description`, `tag`,`created_at`, `asn`, `country_code`, `dns_record.value`, `dns_record.resource`, `reverse_dns_name`, `cpe` and `port` |
 | `rule`     | `id`, `title`, `description`, `tag`, `created_at` and `updated_at`                                                                                                                                                           |
 | `tag`      | `id` and `name`                                                                                                                                                                                                              |
+
+!!! tip
+
+    See [Diagrams](https://ninoseki.github.io/mihari/diagrams/) to know detailed Active Record & ER diagrams.

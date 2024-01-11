@@ -8,16 +8,16 @@
 
 !!! abstract "Learning Points"
 
-    - How to use `list-transform` feature
-    - How to use Nuclei along with Mihari
+    - How to use `list-transform` feature.
+    - How to use Nuclei along with Mihari.
 
 ## Problem Statement
 
 Try to create a Nuclei template that meets all of the following conditions:
 
-- HTTP status equals to 200
-- Headers have `x-conference:JSAC2024`
-- HTML body has an ISO 8601 format datetime
+- HTTP status equals to 200.
+- Headers have `x-conference:JSAC2024`.
+- HTML body has an ISO 8601 format datetime.
 
 <figure markdown>
   ![img](https://i.imgur.com/68zeOQn.png)
