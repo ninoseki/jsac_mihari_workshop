@@ -42,7 +42,7 @@ More practically, the following Jbuilder template combines an IP and its associa
 ```ruby
 ip_ports = results.map do |artifact|
   artifact.ports.map do |port|
-    "#{artifact.data}:#{port.port}"
+    "#{artifact.data}:#{port.number}"
   end
 end.flatten
 
@@ -63,7 +63,7 @@ The output can be used for passing data into Nuclei.
 
 ### Nuclei Basics
 
-- Nuclei template is explained at https://docs.projectdiscovery.io/templates/introduction
+- Nuclei template is explained at https://docs.projectdiscovery.io/templates/introduction.
 
 **Example**
 
