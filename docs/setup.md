@@ -22,10 +22,10 @@ If everything goes well, you can use Mihari, Nuclei and jq in the container.
 
 ```bash
 $ mihari -v
-7.1.1
+7.2.0
 
 $ nuclei --version
-[INF] Nuclei Engine Version: v3.1.3
+[INF] Nuclei Engine Version: v3.1.5
 [INF] Nuclei Config Directory: /home/vscode/.config/nuclei
 [INF] Nuclei Cache Directory: /home/vscode/.cache/nuclei
 
