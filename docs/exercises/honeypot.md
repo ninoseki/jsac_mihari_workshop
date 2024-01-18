@@ -8,7 +8,7 @@
 
 !!! abstract "Learning Points"
 
-    - How to write a rule (reprise)
+    - How to write a rule. (Reprise)
 
 ## Problem Statement
 
