@@ -29,6 +29,7 @@ queries:
 emitters:
   - emitter: database
 enrichers:
+  - enricher: google_public_dns
   - enricher: whois
 data_types:
   - domain

@@ -29,8 +29,8 @@ nav:
   - Operation: operation.md
   - Exercises:
       - Subdomain Enumeration: exercises/subdomain_enumeration.md
-      - Honeypot: exercises/honeypot.md
       - MoqHao: exercises/moqhao.md
+      - Honeypot: exercises/honeypot.md
       - Nuclei: exercises/nuclei.md
 
 plugins:

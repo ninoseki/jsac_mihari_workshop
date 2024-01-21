@@ -29,6 +29,7 @@ Try to create a Mihari rule to find them.
 ```bash
 # Node.js v20+ is required
 git clone https://github.com/ninoseki/jsac_mihari_workshop
+cd jsac_mihari_workshop
 npm install
 npx hash-honeypot run honeypot
 ```
@@ -37,4 +38,3 @@ npx hash-honeypot run honeypot
 
     - There is a very unique header key-value pair.
     - Favicon is very unique too.
-    - HTML title may be unique?

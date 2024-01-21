@@ -8,8 +8,8 @@
 
 !!! abstract "Learning Points"
 
-    - How to configure Mihari.
     - How to write a rule. (Reprise)
+    - How to configure Mihari.
 
 ## Problem Statement
 
