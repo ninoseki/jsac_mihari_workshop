@@ -4,6 +4,13 @@
   ![img](https://i.imgflip.com/8bqf7d.jpg){: style="width:480px"}
 </figure>
 
+## What Are Uncover and Nuclei?
+
+- [projectdiscovery/uncover](https://github.com/projectdiscovery/uncover)
+  - Quickly discover exposed hosts on the internet using multiple search engines.
+- [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
+  - Fast and customizable vulnerability scanner based on simple YAML based DSL.
+
 ## A Key Difference
 
 - Mihari is a **passive** monitoring tool
