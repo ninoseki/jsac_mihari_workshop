@@ -7,7 +7,7 @@
 !!! warning
 
     - Do not access to possibly malicious IPs, domains and URLs via the conference network!
-    - This document is written on based on Mihari v7.2 and specs subject to change in the future.
+    - This document is written on based on Mihari v7.3 and specs subject to change in the future.
 
 ## Time Table
 

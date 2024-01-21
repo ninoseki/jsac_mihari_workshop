@@ -22,7 +22,7 @@ If everything goes well, you can use Mihari, Nuclei and jq in the container.
 
 ```bash
 $ mihari -v
-7.2.0
+7.3.1
 
 $ nuclei --version
 [INF] Nuclei Engine Version: v3.1.5
