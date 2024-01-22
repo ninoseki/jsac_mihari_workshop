@@ -29,7 +29,7 @@ Nuclei can validate/filter findings by scanning and Mihari cannot.
     - Also can create a report in Elasticsearch, Splunk, ProjectDiscovery's Cloud Platform, etc.
 - Data enrichment:
   - Mihari **does have** automated data enrichment feature.
-  - Nuclei/Uncover **doesn't have** automated data enrichment feature.
+  - Nuclei & Uncover **don't have** automated data enrichment feature.
 
 ## So, So What?
 
@@ -57,10 +57,4 @@ nuclei -uq "ip:1.1.1.1" -ue shodan ...
 nuclei -uq "ip:1.1.1.1" -ue shodan ...
 ```
 
-You can convert Mihari data to Nuclei's targets by:
-
-```bash
-mihari artifact list | jq -r ".results[].data" | nuclei ...
-# or
-mihari artifact list-transform -t "json.array! results.map(&:data)" | jq -r ".[]" | nuclei ...
-```
+You can convert Mihari data to Nuclei's targets by using [list-transform](https://ninoseki.github.io/mihari/usage/#search-with-transformation) feature.

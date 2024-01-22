@@ -92,4 +92,4 @@ $ mihari artifact list-transform "rule.id:{HONEYPOT_RULE_ID}" -t ip_port.json.jb
 
 !!! note
 
-    Please follow an instruction I give in Slack instead of `mihari artifact list-transform ...` if you are unable to complete the previous exercise.
+    Please use a rule I give in Slack if you are unable to complete the previous exercise.
