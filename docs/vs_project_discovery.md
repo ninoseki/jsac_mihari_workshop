@@ -13,8 +13,8 @@
 
 ## A Key Difference
 
-- Mihari is a **passive** monitoring tool
-- ProjectDiscovery's Nuclei is an **active** monitoring/scanning tool
+- Mihari is a **passive** monitoring tool.
+- ProjectDiscovery's Nuclei is an **active** monitoring/scanning tool.
 
 Nuclei can validate/filter findings by scanning and Mihari cannot.
 
