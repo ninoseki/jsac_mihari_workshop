@@ -22,8 +22,8 @@ Try to create a Mihari rule to find them.
 
 ## Notes
 
-- The honeypot profile is defined in https://github.com/ninoseki/jsac_mihari_workshop/tree/main/honeypot
-- HASH's profile configuration is described at https://github.com/DataDog/HASH/blob/main/docs/config.md
+- HASH's profile configuration is described at https://github.com/DataDog/HASH/blob/main/docs/config.md.
+- The honeypot profile is defined in https://github.com/ninoseki/jsac_mihari_workshop/tree/main/honeypot.
 - Alternatively you can run the honeypot in your laptop by:
 
 ```bash
